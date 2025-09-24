@@ -1,0 +1,74 @@
+.text-box > h3:first-of-type {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box >div:nth-of-type(2) {
+   color: red;
+}
+
+.text-box >h3:nth-of-type(2) + p {
+    color: green;
+}
+
+.yellow {
+    
+    color: yellow;
+}
+
+
+
+.monday {
+    color: blue;
+    background-color: rgb(240, 207, 194);
+}
+
+.monday:hover {
+    
+    color: rgb(255, 0, 0);
+}
+
+.tuesday{
+
+    color: orange;
+    background-color: rgb(194, 240, 207);
+}
+
+.tuesday:hover{
+
+    color: rgb(38, 0, 255);
+    background-color: rgb(229, 255, 0);
+}
+
+.wednesday {
+    color: purple;
+    background-color: rgb(207, 194, 240);
+}
+
+.wednesday:hover {
+    color: rgb(56, 255, 6);
+    background-color: rgb(66, 2, 228);
+}
+
+.thursday {
+    color: brown;
+    background-color: rgb(240, 240, 194);
+}
+
+.thursday:hover {
+    color: rgb(255, 208, 0);
+    background-color: rgb(0, 240, 120);
+}
+
+.friday {
+    color: black;
+    background-color: rgb(240, 194, 207);
+}
+
+.friday:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgb(40, 2, 255);
+}
