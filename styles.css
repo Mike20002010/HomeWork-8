@@ -20,55 +20,92 @@
 }
 
 
-
-.monday {
+ul:nth-of-type(1) li:nth-child(even) {
     color: blue;
-    background-color: rgb(240, 207, 194);
 }
 
-.monday:hover {
-    
-    color: rgb(255, 0, 0);
+ul:nth-of-type(1) li:nth-child(odd) {
+    color: rgb(0, 255, 106);
 }
 
-.tuesday{
-
-    color: orange;
-    background-color: rgb(194, 240, 207);
+ul:nth-of-type(1):hover li:nth-child(even) {
+    color: rgb(9, 255, 0);
 }
 
-.tuesday:hover{
-
+ul:nth-of-type(1):hover li:nth-child(odd) {
     color: rgb(38, 0, 255);
-    background-color: rgb(229, 255, 0);
 }
 
-.wednesday {
-    color: purple;
-    background-color: rgb(207, 194, 240);
+
+
+ul:nth-of-type(2) li:nth-child(even) {
+    color: rgb(238, 255, 0);
 }
 
-.wednesday:hover {
-    color: rgb(56, 255, 6);
-    background-color: rgb(66, 2, 228);
+ul:nth-of-type(2) li:nth-child(odd) {
+    color: rgb(255, 153, 0);
 }
 
-.thursday {
-    color: brown;
-    background-color: rgb(240, 240, 194);
+ul:nth-of-type(2):hover li:nth-child(even) {
+    color: rgb(255, 153, 0);
 }
 
-.thursday:hover {
-    color: rgb(255, 208, 0);
-    background-color: rgb(0, 240, 120);
+ul:nth-of-type(2):hover li:nth-child(odd) {
+    color: rgb(251, 255, 0);
 }
 
-.friday {
-    color: black;
-    background-color: rgb(240, 194, 207);
+
+
+ul:nth-of-type(3) li:nth-child(even) {
+    color: rgb(255, 0, 234);
 }
 
-.friday:hover {
+ul:nth-of-type(3) li:nth-child(odd) {
+    color: rgb(230, 204, 252);
+}
+
+ul:nth-of-type(3):hover li:nth-child(even) {
+    color: rgb(246, 198, 255);
+}
+
+ul:nth-of-type(3):hover li:nth-child(odd) {
+    color: rgb(195, 0, 255);
+}
+
+
+
+
+ul:nth-of-type(4) li:nth-child(even) {
+    color: rgb(0, 255, 255);
+}
+
+ul:nth-of-type(4) li:nth-child(odd) {
     color: rgb(255, 0, 0);
-    background-color: rgb(40, 2, 255);
+}
+
+ul:nth-of-type(4):hover li:nth-child(even) {
+    color: rgb(238, 7, 7);
+}
+
+ul:nth-of-type(4):hover li:nth-child(odd) {
+    color: rgb(0, 183, 255);
+}
+
+
+
+
+ul:nth-of-type(5) li:nth-child(even) {
+    color: rgb(179, 255, 0);
+}
+
+ul:nth-of-type(5) li:nth-child(odd) {
+    color: rgb(89, 0, 255);
+}
+
+ul:nth-of-type(5):hover li:nth-child(even) {
+    color: rgb(82, 8, 255);
+}
+
+ul:nth-of-type(5):hover li:nth-child(odd) {
+    color: rgb(115, 255, 0);
 }
